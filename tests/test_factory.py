@@ -11,7 +11,7 @@ from PIL import Image, ImageDraw
 from pypdf import PdfReader
 
 ROOT = Path(__file__).resolve().parents[1]
-spec = importlib.util.spec_from_file_location('factory', ROOT / 'Skills/photo-to-hexagon/scripts/build.py')
+spec = importlib.util.spec_from_file_location('factory', ROOT / '.agents/skills/photo-to-hexagon/scripts/build.py')
 factory = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(factory)
 

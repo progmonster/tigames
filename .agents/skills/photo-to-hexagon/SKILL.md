@@ -45,7 +45,7 @@ description: "По фото конструктора создаёт чёрные
 не фотографию**. Из корня проекта после подготовки окружения (`uv sync`):
 
 ```bash
-.venv/bin/python Skills/photo-to-hexagon/scripts/build.py \
+.venv/bin/python .agents/skills/photo-to-hexagon/scripts/build.py \
   --lineart path/to/lineart.png \
   --size-mm 34 --measure across-flats \
   --output-dir outputs/model-34mm

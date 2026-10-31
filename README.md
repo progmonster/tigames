@@ -20,7 +20,7 @@ SVG в почти минимальном правильном шестиугол
 Скрипт принимает уже созданный/одобренный контурный рисунок, а не исходное фото.
 
 ```bash
-.venv/bin/python Skills/photo-to-hexagon/scripts/build.py \
+.venv/bin/python .agents/skills/photo-to-hexagon/scripts/build.py \
   --lineart examples/technic-reference/approved-lineart.png \
   --size-mm 34 --measure across-flats \
   --output-dir outputs/my-model
@@ -36,4 +36,4 @@ A4 содержит обычную сетку квадратов, без пло�
 Печатать **100% / «Фактический размер»**, без «Вписать в страницу».
 
 Проверка помощника: `.venv/bin/python -m unittest discover -s tests -v`.
-Полные агентские инструкции: `AGENTS.md`, навык: `Skills/photo-to-hexagon/SKILL.md`.
+Полные агентские инструкции: `AGENTS.md`, навык: `.agents/skills/photo-to-hexagon/SKILL.md`.
