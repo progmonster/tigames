@@ -1,0 +1,18 @@
+[project]
+name = "tigames"
+version = "0.1.0"
+description = "Technical outlines, fitted hexagons and square A4 cards"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+  "Pillow>=11,<14",
+  "numpy>=2,<3",
+  "scipy>=1.14,<2",
+  "svgpathtools>=1.6,<2",
+  "vtracer>=0.6,<0.7",
+  "cairosvg>=2.7,<3",
+  "reportlab>=4,<6",
+  "pypdf>=5,<7",
+]
+
+[dependency-groups]
+dev = ["PyYAML>=6,<7"]
